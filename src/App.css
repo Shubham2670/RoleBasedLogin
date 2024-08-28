@@ -1,0 +1,40 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .shape {
+    cursor: pointer;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    border: 1px solid transparent;
+  }
+  
+  .shape.selected {
+    border: 1px solid #000;
+  }
+  
+  .drop-area {
+    flex-grow: 1;
+    position: relative;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+  
+  .placed-shape {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
